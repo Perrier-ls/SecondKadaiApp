@@ -14,6 +14,7 @@
 		A819E55F22B7211100072A4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A819E55D22B7211100072A4E /* LaunchScreen.storyboard */; };
 		A819E56A22B7211100072A4E /* SecondKadaiAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A819E56922B7211100072A4E /* SecondKadaiAppTests.swift */; };
 		A819E57522B7211100072A4E /* SecondKadaiAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A819E57422B7211100072A4E /* SecondKadaiAppUITests.swift */; };
+		A819E58322B725CB00072A4E /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A819E58222B725CB00072A4E /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		A819E57022B7211100072A4E /* SecondKadaiAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecondKadaiAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A819E57422B7211100072A4E /* SecondKadaiAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondKadaiAppUITests.swift; sourceTree = "<group>"; };
 		A819E57622B7211100072A4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A819E58222B725CB00072A4E /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				A819E55B22B7211100072A4E /* Assets.xcassets */,
 				A819E55D22B7211100072A4E /* LaunchScreen.storyboard */,
 				A819E56022B7211100072A4E /* Info.plist */,
+				A819E58222B725CB00072A4E /* ResultViewController.swift */,
 			);
 			path = SecondKadaiApp;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			files = (
 				A819E55722B7211000072A4E /* ViewController.swift in Sources */,
 				A819E55522B7211000072A4E /* AppDelegate.swift in Sources */,
+				A819E58322B725CB00072A4E /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
